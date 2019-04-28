@@ -4,17 +4,17 @@ int main() {
     cout << "Enter the opration:\n";
 
     string operation;
-    double oprand1, oprand2, result;
-    cin >> operation >> oprand1 >> oprand2;
+    double operand1, operand2, result;
+    cin >> operation >> operand1 >> operand2;
 
     if (operation == "+" || operation == "plus")
-        result = oprand1 + oprand2;
+        result = operand1 + operand2;
     else if (operation == "-" || operation == "minus")
-        result = oprand1 - oprand2;
+        result = operand1 - operand2;
     else if (operation == "*" || operation == "mul")
-        result = oprand1 * oprand2;
+        result = operand1 * operand2;
     else if (operation == "/" || operation == "div")
-        result = oprand1 / oprand2;
+        result = operand1 / operand2;
     else {
         cout << "unknown operation.\n";
         return 1;
